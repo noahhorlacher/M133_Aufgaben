@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>🪛🔩 Karis Geiler Sauschraubenshop 🔩🪛</h1>
+    <form>
+        <div>
+            <div class="flex">
+                <label id="label_screws" for="screws">Schrauben</label>
+                <p id="price_screws"></p>
+            </div>
+            <input id="screws" name="screws" type="number" step="1" min="0" value="0">
+        </div>
+        <div>
+            <div class="flex">
+                <label id="label_nuts" for="nuts">Muttern</label>
+                <p id="price_nuts"></p>
+            </div>
+            <input id="nuts" name="nuts" type="number" step="1" min="0" value="0">
+        </div>
+        <div>
+            <div class="flex">
+                <label id="label_grommets" for="grommets">Unterlegscheiben</label>
+                <p id="price_grommets"></p>
+            </div>
+            <input id="grommets" name="grommets" type="number" step="1" min="0" value="0">
+        </div>
+        <input type="submit" value="Berechnen">
+    </form>
+    <p id="txt_price">Klicken Sie auf «Berechnen» um den Preis zu berechnen.</p>
+</body>
+
+</html>

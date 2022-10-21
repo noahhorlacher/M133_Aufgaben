@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    text-align: center;
+    padding: 2em;
+}
+
+h1 {
+    margin-bottom: 2em;
+}
+
+form {
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+}
+
+form>div {
+    margin: 1em 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex p {
+    margin: 0 0 0 3em;
+}
+
+label {
+    display: block;
+    width: fit-content;
+    font-weight: 900;
+}
+
+form input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
+
+#txt_price {
+    margin-top: 4em;
+}

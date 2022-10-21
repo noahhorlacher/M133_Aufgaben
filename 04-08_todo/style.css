@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+:root {
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    --primary: #f3f3f3;
+    --primary-dark: #e9e9e9;
+    --round: 8px;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    text-align: center;
+    padding: 2rem;
+}
+
+button {
+    background-color: var(--primary);
+    border: 0;
+    border-radius: var(--round);
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    padding: .3rem .7rem;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: var(--primary-dark);
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+main {
+    max-width: 400px;
+    margin: auto;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+}
+
+#input_element {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    padding: .6em .8em;
+    border-radius: var(--round);
+    border: 0;
+    box-shadow: var(--shadow);
+}
+
+.task,
+#tasks_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .6rem .8rem;
+    margin: .5em 0;
+    background-color: white;
+    border-radius: var(--round);
+    box-shadow: var(--shadow);
+}
+
+.task p {
+    flex-grow: 1;
+    margin: 0 1rem;
+}
+
+.task.completed p {
+    text-decoration: line-through;
+}
+
+#tasks_footer {
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+}
+
+#tasks_footer p {
+    margin: 0 1em 0 0;
+}
